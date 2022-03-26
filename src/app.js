@@ -30,3 +30,8 @@ function getStudentScholarship(listOfStudents) {
         }
     } return(studentsScholarship)
 } 
+
+function toggleTheme() {
+    const  theme = document.querySelector('.light-theme')
+    theme.classList.toggle("dark-theme")    
+}
